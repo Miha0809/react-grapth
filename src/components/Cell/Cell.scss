@@ -1,0 +1,10 @@
+.cell {
+  width: 30px;
+  height: 30px;
+  flex: 1; // Клітинка займає однакову ширину
+  padding: 10px 20px; // Внутрішній відступ
+  border: 1px solid #ccc; // Рамка клітинки
+  background-color: #f9f9f9; // Фон клітинки
+  display: flex;
+  justify-content: center; // Горизонтальне вирівнювання тексту
+}

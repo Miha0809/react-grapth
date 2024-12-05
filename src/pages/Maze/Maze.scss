@@ -1,0 +1,20 @@
+.maze {
+  .row {
+    display: flex; // Рядок
+    flex-direction: row; // Елементи розташовуються горизонтально
+
+    .column {
+      display: flex;
+      flex-direction: column; // Контейнер для рядків
+    }
+  }
+
+  .button {
+    margin: 20px;
+
+    &>* {
+      width: 70px;
+      height: 40px;
+    }
+  }
+}
