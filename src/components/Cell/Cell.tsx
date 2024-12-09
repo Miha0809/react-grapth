@@ -1,4 +1,5 @@
-import "./cell.scss";
+import {Node} from "../../utils/Node";
+import "./Cell.scss";
 
 function Cell({ item }: { item: number }) {
   return (

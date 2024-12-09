@@ -1,4 +1,8 @@
 .maze {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
   .row {
     display: flex; // Рядок
     flex-direction: row; // Елементи розташовуються горизонтально
@@ -9,12 +13,7 @@
     }
   }
 
-  .button {
-    margin: 20px;
-
-    &>* {
-      width: 70px;
-      height: 40px;
-    }
+  .btn {
+    margin: 100px 20px;
   }
 }
